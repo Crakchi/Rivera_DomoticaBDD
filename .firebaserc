@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "riveradomotica": {
+      "hosting": {
+        "app": [
+          "riveradomotica"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "riveradomotica"
+  }
+}
