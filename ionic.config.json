@@ -1,0 +1,7 @@
+{
+  "name": "Rivera_DomoticaBDD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
