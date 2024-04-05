@@ -1,10 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Fokitos</ion-title>
+    <ion-progress-bar type="indeterminate" color="warning"></ion-progress-bar>
+  </ion-toolbar>
+</ion-header>
 <ion-content>
-  <ion-grid>
-    <ion-row>
-      <ion-col>
-
-        <div class="room" [ngClass]="(room_state.pepe) ? 'active' : ''"></div>
-
+  <ion-grid class="center">
+    <ion-row class="centerForm">
+      <ion-col class="formlad">
+        <ion-label class="ladhigh">BAÑO</ion-label>
+        <ion-icon name="water" [color]="cl1" class="icono"></ion-icon>
+      </ion-col>
+      <ion-col class="formlad">
+        <ion-label class="ladhigh">COCINA</ion-label>
+        <ion-icon name="fast-food" [color]="cl2" class="icono"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <!-- ------------------------------------------------------------ -->
+    <ion-row class="centerForm">
+      <ion-col class="formlad">
+        <ion-label class="ladhigh">Cuarto</ion-label>
+        <ion-icon name="bed" [color]="cl3" class="icono"></ion-icon>
+      </ion-col>
+      <ion-col class="formlad">
+        <ion-label class="ladhigh">GARAJE</ion-label>
+        <ion-icon name="car-sport" [color]="cl4" class="icono"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <!-- ------------------------------------------------------------ -->
+    <ion-row class="centerForm">
+      <ion-col class="formlad">
+        <ion-label class="ladhigh">LAVANDERÍA</ion-label>
+        <ion-icon name="rainy" [color]="cl5" class="icono"></ion-icon>
+      </ion-col>
+      <ion-col class="formlad">
+        <ion-label class="ladhigh">SALA</ion-label>
+        <ion-icon name="tv" [color]="cl6" class="icono"></ion-icon>
       </ion-col>
     </ion-row>
   </ion-grid>
